@@ -85,7 +85,7 @@ mes.style="color:;font-size:30px";
 				} 
 				else if(p1 == 18 || p1== 5 ||p1== 19 ||p1== 66 )
 				{
-										btn[p1].innerHTML= "<img class='img-fluid' src='image/playerA.png' style='z-index: 2;  position: relative; height: 100%; width: 100%;' />"
+					btn[p1].innerHTML= "<img class='img-fluid' src='image/playerA.png' style='z-index: 2;  position: relative; height: 100%; width: 100%;' />"
 										
 				}
 				else {
@@ -128,7 +128,7 @@ mes.style="color:;font-size:30px";
 					}
 					else
 					{
-					btn[i].innerHTML=(i);
+						if(!(i<=0)) btn[i].innerHTML=(i);
 					}
 		
 					await delay1(800);

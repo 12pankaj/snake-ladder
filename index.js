@@ -116,6 +116,7 @@ mes.style="color:;font-size:30px";
 					
 					for(var i=p1-r;i<p1;i++)
 					{
+						if(i<=0) break;
 						k=0;
 		dice.setAttribute("style","opacity:0.5")
 

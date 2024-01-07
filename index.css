@@ -1,0 +1,106 @@
+	body {
+		background: seagreen;
+		background-size: cover;
+		background-attachment: fixed;
+		color: #fff;
+	}
+
+	.border {
+		height: 40px;
+		width: 61px;
+		text-align: center;
+		padding: 1px;
+		font-size: 23px;
+		border: 2px solid black !important;
+	}
+
+	#mes {
+		font-size: 18px;
+		font-family: cursive;
+		color: #fff;
+		;
+	}
+
+	#mesl {
+		font-size: 18px;
+		color: #00EEEE;
+	}
+
+	#winingimg {
+		z-index: 3;
+		position: absolute;
+	}
+
+	#ladderimage1 {
+		z-index: 1;
+		position: absolute;
+		width: 120px;
+		rotate: 75deg;
+		top: 70px;
+	}
+
+	#ladderimage2 {
+		z-index: 1;
+		position: absolute;
+		width: 300px;
+		rotate: 190deg;
+		top: 130px;
+		left: 45%;
+	}
+
+	#ladderimage3 {
+		z-index: 1;
+		position: absolute;
+		width: 210px;
+		rotate: 175deg;
+		top: 200px;
+		left: 40%;
+	}
+
+	#ladderimage4 {
+		z-index: 1;
+		position: absolute;
+		width: 290px;
+		rotate: 105deg;
+		top: 200px;
+		left: 40%;
+	}
+
+	#snakeimage1 {
+		z-index: 1;
+		position: absolute;
+		width: 120px;
+		rotate: 195deg;
+		top: 110px;
+		left: 62%;
+	}
+
+	#snakeimage2 {
+		z-index: 1;
+		position: absolute;
+		width: 120px;
+		rotate: 285deg;
+		top: 70px;
+		left: 43%;
+
+	}
+
+	#snakeimage3 {
+		z-index: 1;
+		position: absolute;
+		width: 120px;
+		rotate: 310deg;
+		top: 290px;
+		left: 44%;
+
+	}
+
+	#snakeimage4 {
+		z-index: 1;
+		position: absolute;
+		width: 350px;
+		transform: rotate(260deg);
+		top: 210px;
+		left: 54%;
+
+	}

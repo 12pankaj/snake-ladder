@@ -219,8 +219,8 @@ function randam() {
         same = 0;
       }
     }
-    count = 2;
-    if (r == 6) count = 1; //dice is 6 than player chance again
+    count = 1;
+    if (r == 6) count = 2; //dice is 6 than player chance again
     mes.innerHTML =
       count == 1 ? "This Chance " + player1 : "This Chance " + player2;
     if (p2 == 100) {

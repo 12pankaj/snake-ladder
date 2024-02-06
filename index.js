@@ -28,7 +28,7 @@ do {
 
 var count = 1;
 mes.innerHTML =
-  count == 1 ? "This Chance " + player1 : "This Chance " + player2;
+  count == 1 ? "Next Chance " + player1 : "Next Chance " + player2;
 mes.style = "color:;font-size:30px";
 //odd evan box color change
 for (i = 0; i <= 100; i++) {
@@ -143,7 +143,7 @@ function randam() {
     count = 2;
     if (r == 6) count = 1; //dice is 6 than player chance again
     mes.innerHTML =
-      count == 1 ? "This Chance " + player1 : "This Chance " + player2;
+      count == 1 ? "Next Chance " + player1 : "Next Chance " + player2;
     if (p1 == 100) {
       //player complete game first than win this game
       wi.play();
@@ -222,7 +222,7 @@ function randam() {
     count = 1;
     if (r == 6) count = 2; //dice is 6 than player chance again
     mes.innerHTML =
-      count == 1 ? "This Chance " + player1 : "This Chance " + player2;
+      count == 1 ? "Next Chance " + player1 : "Next Chance " + player2;
     if (p2 == 100) {
       wi.play();
       wini.setAttribute("src", "image/winnig.gif");
